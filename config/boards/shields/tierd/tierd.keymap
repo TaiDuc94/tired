@@ -14,8 +14,7 @@
             >;
 
             sensor-bindings =
-                <&inc_dec_kp RIGHT_BRACKET LEFT_BRACKET>,
-                <&inc_dec_kp C_VOL_UP C_VOL_DN>;
+                <&inc_dec_kp RIGHT_BRACKET LEFT_BRACKET &inc_dec_kp C_VOL_UP C_VOL_DN>;
         };
 
         Num_BT {
@@ -27,8 +26,7 @@
             >;
 
             sensor-bindings =
-                <&inc_dec_kp RIGHT LEFT_ARROW>,
-                <&inc_dec_kp DOWN UP_ARROW>;
+                <&inc_dec_kp RIGHT LEFT_ARROW &inc_dec_kp DOWN UP_ARROW>;
         };
 
         special {
@@ -40,8 +38,7 @@
             >;
 
             sensor-bindings =
-                <&inc_dec_kp END HOME>,
-                <&inc_dec_kp PAGE_DOWN PAGE_UP>;
+                <&inc_dec_kp END HOME &inc_dec_kp PAGE_DOWN PAGE_UP>;
         };
 
         PTS {
@@ -53,8 +50,7 @@
             >;
 
             sensor-bindings =
-                <&inc_dec_kp RIGHT LEFT>,
-                <&inc_dec_kp C_VOL_UP C_VOL_DN>;
+                <&inc_dec_kp RIGHT LEFT &inc_dec_kp C_VOL_UP C_VOL_DN>;
         };
     };
 };
