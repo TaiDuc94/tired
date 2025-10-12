@@ -6,6 +6,9 @@
 / {
     keymap {
         compatible = "zmk,keymap";
+		&led_strip {
+		    chain-length = <5>;
+		};
 
         default_layer {
 			bindings = <
