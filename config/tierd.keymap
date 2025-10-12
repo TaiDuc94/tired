@@ -8,20 +8,20 @@
 
         default_layer {
 		
-		    &kp ESC     &kp Q     &kp W     &kp E       &kp R      &kp T        &kp Y       &kp U    &kp I     &kp O    &kp P    &kp BSPC
-		    &kp TAB     &kp A     &kp S     &kp D       &kp F      &kp G        &kp H       &kp J    &kp K     &kp L    &kp SCLN &kp DEL
+		    &kp ESC     &kp Q     &kp W     &kp E       &kp R      &kp T        &kp Y       &kp U    &kp I     &kp O    &kp P 
+		    &kp TAB     &kp A     &kp S     &kp D       &kp F      &kp G        &kp H       &kp J    &kp K     &kp L    &kp SCLN
 		    &kp LShFT   &kp Z     &kp X     &kp C       &kp V      &kp B        &kp N       &kp M    &kp COMMA &kp DOT  &kp RET
-		    &kp LGUI    &kp LALT  &kp LCTRL &kp SPACE   &kp SPACE  &mo 1        &kp AT      &mo 1    &mo 1
+		    &kp LGUI    &kp LALT  &kp LCTRL &kp SPACE   &kp SPACE  &mo 1        &kp AT      &mo 1    &mo 1     &kp DOT  &kp RET
 		  >;
         };
 		
 	bt_layer {
 		bindings = <
 		
-	    &kp ESC     &kp Q     &kp W     &kp E       &kp R      &kp T        &kp Y       &kp U    &kp I          &kp O           &kp P        &bootloader
-	    &kp TAB     &kp A     &kp S     &kp D       &kp F      &kp G        &kp H       &kp J    &kp K          &kp L           &kp SCLN     &bt BT_CLR
+	    &kp ESC     &kp Q     &kp W     &kp E       &kp R      &kp T        &kp Y       &kp U    &kp I          &kp O           &bootloader
+	    &kp TAB     &kp A     &kp S     &kp D       &kp F      &kp G        &kp H       &kp J    &kp K          &kp SCLN        &bt BT_CLR
 	    &kp LShFT   &kp Z     &kp X     &kp C       &kp V      &kp B        &kp N       &kp M    &bt BT_SEL 0	&bt BT_SEL 1	&bt BT_SEL 2
-	    &kp LGUI    &kp LALT  &kp LCTRL &kp SPACE   &kp SPACE  &mo 1        &kp AT      &mo 1    &mo 1
+	    &kp LGUI    &kp LALT  &kp LCTRL &kp SPACE   &kp SPACE  &mo 1        &kp AT      &mo 1    &mo 1          &kp DOT         &kp DOT
 		
 		
 		
