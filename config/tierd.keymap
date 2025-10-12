@@ -36,7 +36,7 @@
 &kp TILDE        &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp PIPE       &kp BSLH      &kp PLUS              &kp MINUS              &kp UNDERSCORE  &kp UP_ARROW    &trans
 &kp EXCLAMATION  &kp HASH          &kp DOLLAR         &kp PERCENT     &kp CARET        &kp AMPERSAND  &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT        &kp DOWN_ARROW  &kp RIGHT
                  &trans            &trans             &trans          &trans           &trans         &trans        &kp SQT               &kp DOUBLE_QUOTES      &kp EQUAL       &kp SLASH       &kp QUESTION
-                                                      &trans          &trans           &trans         &kp C_BRI_DEC &kp C_BRI_INC         &trans                 &kp K_MUTE      &trans          &trans
+                                                      &trans          &trans           &trans         &kp C_BRI_DEC &kp C_BRI_INC         &trans                 &kp K_MUTE      &trans          &studio_unlock
             >;
 
             sensor-bindings =
