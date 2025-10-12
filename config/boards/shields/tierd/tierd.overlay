@@ -56,5 +56,8 @@
         sensors = <&left_encoder>;
         triggers-per-rotation = <20>;
     };
+	&left_encoder {
+	    status = "okay";
+	};
 	
 };
