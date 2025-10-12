@@ -6,7 +6,12 @@
 / {
     keymap {
         compatible = "zmk,keymap";
-		
+		&left_encoder { 
+		status = "okay"; 
+		};
+		&right_encoder { 
+		status = "okay"; 
+		};
 
         default_layer {
 			bindings = <
