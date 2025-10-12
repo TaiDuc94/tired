@@ -46,16 +46,15 @@
 	    };
     left_encoder: encoder_left {
         compatible = "alps,ec11";
-        a-gpios = <&pro_micro 0 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
-        b-gpios = <&pro_micro 1 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
-        sresolution = <4>;
+        a-gpios = <&pro_micro 0 (GPIO_ACTIVE_HIGH)>;
+        b-gpios = <&pro_micro 1 (GPIO_ACTIVE_HIGH)>;
+        steps = <80>;
         status = "disabled";
     };
     sensors: sensors {
         compatible = "zmk,keymap-sensors";
         sensors = <&left_encoder>;
-        
+        triggers-per-rotation = <20>;
     };
-	
 	
 };
