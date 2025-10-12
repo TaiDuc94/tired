@@ -43,4 +43,29 @@
 	        zmk,matrix_transform = &default_transform;
 	        // Other chosen items
 	    };
+    left_encoder: encoder_left {
+        compatible = "alps,ec11";
+        a-gpios = <0 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
+        b-gpios = <1 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
+        steps = <80>;
+        status = "disabled";
+    };
+    right_encoder: encoder_right {
+        compatible = "alps,ec11";
+        a-gpios = <&gpio1 1 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
+        b-gpios = <&gpio1 2 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
+        steps = <80>;
+        status = "disabled";
+    };
+    sensors: sensors {
+        compatible = "zmk,keymap-sensors";
+        sensors = <&left_encoder &right_encoder>;
+        triggers-per-rotation = <20>;
+    };
+	&left_encoder {
+	    status = "okay";
+	};
+	&right_encoder {
+	    status = "okay";
+	};
 };
