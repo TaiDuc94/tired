@@ -3,9 +3,6 @@ if SHIELD_TIERD
 config ZMK_KEYBOARD_NAME
     default "tierd"
 
-config USB_DEVICE_PRODUCT
-	    default "Tierd"
-
 config ZMK_RGB_UNDERGLOW
     bool "Enable RGB Underglow"
     default y
@@ -16,7 +13,7 @@ config ZMK_RGB_UNDERGLOW_BRT_START
 
 config ZMK_RGB_UNDERGLOW_HUE_START
     int "Starting Hue (0-360)"
-    default 0
+    default 89
 
 config ZMK_RGB_UNDERGLOW_SAT_START
     int "Starting Saturation (0-100)"
