@@ -3,6 +3,9 @@ if SHIELD_TIERD
 config ZMK_KEYBOARD_NAME
     default "tierd"
 
+config USB_DEVICE_PRODUCT
+	    default "Tierd"
+
 config ZMK_RGB_UNDERGLOW
     bool "Enable RGB Underglow"
     default y
